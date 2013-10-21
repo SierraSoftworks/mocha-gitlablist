@@ -1,0 +1,28 @@
+{
+  "author": "Benjamin Pannell <admin@sierrasoftworks.com>",
+  "name": "gitlablist-mocha",
+  "description": "Provides a custom Mocha test reporter compatible with the current (3.1.0) release of GitLab-CI",
+  "keywords": [
+    "mocha",
+    "gitlab",
+    "ci",
+    "reporter",
+    "gitlab-ci"
+  ],
+  "version": "1.0.2",
+  "license": "MIT",
+  "repository": {
+    "url": "http://github.com/SierraSoftworks/mocha-gitlablist"
+  },
+  "contributors": [
+    { "name" : "Benjamin Pannell", "email" : "admin@sierrasoftworks.com" }
+  ],
+  "main": "./lib/gitlablist",
+  "engines": {
+    "node": "*"
+  },
+  "analyse": false,
+  "dependencies": {
+    "mocha": "*"
+  }
+}
